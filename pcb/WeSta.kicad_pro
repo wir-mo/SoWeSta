@@ -181,7 +181,11 @@
         0.0,
         0.2,
         0.25,
+        0.26,
+        0.32,
+        0.4,
         0.5,
+        0.8,
         1.0
       ],
       "tuning_pattern_settings": {
@@ -214,6 +218,18 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.25,
+          "drill": 0.15
+        },
+        {
+          "diameter": 0.5,
+          "drill": 0.3
+        },
+        {
+          "diameter": 0.6,
+          "drill": 0.3
         }
       ],
       "zones_allow_external_fillets": false
@@ -556,6 +572,12 @@
           "label": "Description",
           "name": "Description",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Address",
+          "name": "Address",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -607,6 +629,30 @@
     [
       "ae1a61f8-b504-456a-9cf1-40e40b136184",
       "Root"
+    ],
+    [
+      "2322782c-49f7-43c8-bdd7-f4b166c0e2a7",
+      "BH1730"
+    ],
+    [
+      "1c895a28-3848-4bbe-a36f-46554af59050",
+      "HT31"
+    ],
+    [
+      "3dfb7679-d5e0-43d0-95fa-a864f91a5cc7",
+      "SCD40"
+    ],
+    [
+      "11fdf58f-81a0-4916-a85f-635777d8f33a",
+      "power"
+    ],
+    [
+      "39de2002-37ca-4108-9b5c-a8443912f6aa",
+      "sensors"
+    ],
+    [
+      "ab691009-5049-4d9c-8e22-7239ef0fd400",
+      "BME280"
     ]
   ],
   "text_variables": {}
