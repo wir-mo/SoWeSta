@@ -1479,7 +1479,7 @@
 		)
 		(uuid "732787f8-d292-47ce-9a44-3c1355a6468f")
 	)
-	(text "0xEC (11101100)"
+	(text "0x76 (1110110)"
 		(exclude_from_sim no)
 		(at 83.566 78.232 0)
 		(effects
@@ -2065,7 +2065,7 @@
 				)
 			)
 		)
-		(property "Value" "20u"
+		(property "Value" "22uF"
 			(at 102.87 67.31 90)
 			(effects
 				(font

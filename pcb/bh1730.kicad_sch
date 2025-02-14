@@ -1303,7 +1303,7 @@
 		)
 		(uuid "732787f8-d292-47ce-9a44-3c1355a6468f")
 	)
-	(text "0x52 (01010010)"
+	(text "0x29 (0101001)"
 		(exclude_from_sim no)
 		(at 77.724 80.264 0)
 		(effects
@@ -2089,7 +2089,7 @@
 				)
 			)
 		)
-		(property "Value" "20u"
+		(property "Value" "22uF"
 			(at 59.69 74.93 90)
 			(effects
 				(font

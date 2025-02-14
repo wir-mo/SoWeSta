@@ -2071,6 +2071,12 @@
 		(uuid "414dc83b-e964-4d07-88e0-120bd1e977cc")
 	)
 	(junction
+		(at 83.82 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7644e911-013c-4b7f-9bca-9461c0dfffe7")
+	)
+	(junction
 		(at 213.36 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2093,6 +2099,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d395ebf2-28d0-4947-9cf6-e228ae553726")
+	)
+	(junction
+		(at 74.93 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e8706ce8-ecf3-48ae-9995-cd9995157bea")
 	)
 	(junction
 		(at 83.82 116.84)
@@ -2174,6 +2186,16 @@
 	)
 	(wire
 		(pts
+			(xy 83.82 129.54) (xy 83.82 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1995ba64-34a3-4e14-84d3-d06e29ad10dd")
+	)
+	(wire
+		(pts
 			(xy 163.83 86.36) (xy 163.83 87.63)
 		)
 		(stroke
@@ -2201,6 +2223,16 @@
 			(type default)
 		)
 		(uuid "2a52a748-ce5d-42a8-adfa-9695d5216275")
+	)
+	(wire
+		(pts
+			(xy 83.82 130.81) (xy 83.82 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ffce8ce-c273-470a-8d5f-ee788d8b2fae")
 	)
 	(wire
 		(pts
@@ -2254,6 +2286,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 123.19) (xy 74.93 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47dacdb2-f18a-41f8-afc4-0e523bb05a49")
+	)
+	(wire
+		(pts
 			(xy 130.81 124.46) (xy 133.35 124.46)
 		)
 		(stroke
@@ -2301,6 +2343,16 @@
 			(type default)
 		)
 		(uuid "6785eb71-6040-4683-a73d-6900b488dc9b")
+	)
+	(wire
+		(pts
+			(xy 73.66 123.19) (xy 74.93 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "698e4b07-67e0-4121-be57-778b090c3b17")
 	)
 	(wire
 		(pts
@@ -2391,6 +2443,16 @@
 			(type default)
 		)
 		(uuid "921c140b-b41c-4ed5-a7a5-b88275dee0d9")
+	)
+	(wire
+		(pts
+			(xy 74.93 129.54) (xy 83.82 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96872832-ca7a-46fd-96ad-96a7858cdcfa")
 	)
 	(wire
 		(pts
@@ -2624,6 +2686,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 123.19) (xy 76.2 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efd6d8ea-a02e-4e10-b234-bde3dd9137eb")
+	)
+	(wire
+		(pts
 			(xy 102.87 124.46) (xy 105.41 124.46)
 		)
 		(stroke
@@ -2672,9 +2744,20 @@
 		)
 		(uuid "fbe4fdaa-5b8e-49f5-a87a-55fc1d30e0b9")
 	)
+	(text "Iiterm = 0.01 × Riterm / Riset\n= 0.15A"
+		(exclude_from_sim no)
+		(at 68.834 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5a02b3f3-f8e7-42f5-8faa-67d49b1181c6")
+	)
 	(global_label "VUSB"
 		(shape input)
-		(at 71.12 123.19 180)
+		(at 68.58 123.19 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2684,7 +2767,7 @@
 		)
 		(uuid "3750ff51-4242-4259-8a44-849b589a0eb7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 63.2362 123.19 0)
+			(at 60.6962 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2844,72 +2927,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 133.35 138.43 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "057059b0-0e55-4fd0-8d3d-f2a4c8e3f1ae")
-		(property "Reference" "#PWR056"
-			(at 133.35 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 133.35 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 133.35 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 133.35 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 133.35 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7fbb61dd-2c35-4e6f-b37e-ff9c3457c2f1")
-		)
-		(instances
-			(project "WeSta"
-				(path "/ae1a61f8-b504-456a-9cf1-40e40b136184/11fdf58f-81a0-4916-a85f-635777d8f33a"
-					(reference "#PWR056")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Battery_Management:BQ24074RGT")
 		(at 118.11 114.3 0)
 		(unit 1)
@@ -3042,7 +3059,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "10k"
 			(at 81.28 113.03 90)
 			(effects
 				(font
@@ -3094,7 +3111,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 83.82 128.27 0)
+		(at 83.82 130.81 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3103,7 +3120,7 @@
 		(fields_autoplaced yes)
 		(uuid "101b31a4-c38b-4bb3-902d-632f5ad6da00")
 		(property "Reference" "#PWR044"
-			(at 83.82 134.62 0)
+			(at 83.82 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3112,7 +3129,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 83.82 133.35 0)
+			(at 83.82 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3120,7 +3137,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 83.82 128.27 0)
+			(at 83.82 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3129,7 +3146,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 83.82 128.27 0)
+			(at 83.82 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3138,7 +3155,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 83.82 128.27 0)
+			(at 83.82 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3512,7 +3529,7 @@
 				)
 			)
 		)
-		(property "Value" "10k (0.15A)"
+		(property "Value" "10k"
 			(at 100.33 101.6 90)
 			(effects
 				(font
@@ -3647,7 +3664,7 @@
 				)
 			)
 		)
-		(property "Value" "20u"
+		(property "Value" "22uF"
 			(at 113.0236 93.98 90)
 			(effects
 				(font
@@ -3692,6 +3709,73 @@
 			(project "WeSta"
 				(path "/ae1a61f8-b504-456a-9cf1-40e40b136184/11fdf58f-81a0-4916-a85f-635777d8f33a"
 					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 74.93 127 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "351933f2-e4bd-4ff2-ad65-a102fff42dd0")
+		(property "Reference" "R22"
+			(at 74.93 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 72.39 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 74.93 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 74.93 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 74.93 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "26402138-504e-4fc6-aea8-cfca0b323d96")
+		)
+		(pin "1"
+			(uuid "b5a0714e-6579-4377-bab3-a70e1ff44ae9")
+		)
+		(instances
+			(project "SoWeSta"
+				(path "/ae1a61f8-b504-456a-9cf1-40e40b136184/11fdf58f-81a0-4916-a85f-635777d8f33a"
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -3925,7 +4009,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 181.61 140.9762 0)
 			(effects
 				(font
@@ -4037,6 +4121,72 @@
 			(project "WeSta"
 				(path "/ae1a61f8-b504-456a-9cf1-40e40b136184/11fdf58f-81a0-4916-a85f-635777d8f33a"
 					(reference "#PWR060")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 133.35 138.43 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6c50c8da-114f-40e5-85c5-0926ae3aa415")
+		(property "Reference" "#PWR056"
+			(at 133.35 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 133.35 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 133.35 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 133.35 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a3268f0a-4f0f-4309-a4cb-a9690bf29a9a")
+		)
+		(instances
+			(project "SoWeSta"
+				(path "/ae1a61f8-b504-456a-9cf1-40e40b136184/11fdf58f-81a0-4916-a85f-635777d8f33a"
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -4194,7 +4344,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "20u"
+		(property "Value" "22uF"
 			(at 157.48 93.9862 0)
 			(effects
 				(font
@@ -4399,7 +4549,7 @@
 				)
 			)
 		)
-		(property "Value" "20u"
+		(property "Value" "22uF"
 			(at 138.176 105.41 90)
 			(effects
 				(font
@@ -5260,8 +5410,74 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 140.97 138.43 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aeee1023-f6db-4784-9e0f-8468879d6b12")
+		(property "Reference" "#PWR058"
+			(at 140.97 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 140.97 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 140.97 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 140.97 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3ec7df6a-123a-4bf0-b2fa-668af217e4af")
+		)
+		(instances
+			(project "SoWeSta"
+				(path "/ae1a61f8-b504-456a-9cf1-40e40b136184/11fdf58f-81a0-4916-a85f-635777d8f33a"
+					(reference "#PWR058")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
-		(at 73.66 123.19 90)
+		(at 71.12 123.19 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5269,7 +5485,7 @@
 		(dnp no)
 		(uuid "b4d1ef70-8037-4ba7-9f87-df2956c29c4d")
 		(property "Reference" "R6"
-			(at 73.66 123.19 90)
+			(at 71.12 123.19 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5277,7 +5493,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 73.66 120.65 90)
+			(at 71.12 120.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5285,7 +5501,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 73.66 123.19 0)
+			(at 71.12 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5294,7 +5510,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 73.66 123.19 0)
+			(at 71.12 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5303,7 +5519,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 73.66 123.19 0)
+			(at 71.12 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5544,7 +5760,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "20u"
+		(property "Value" "22uF"
 			(at 215.9 102.8762 0)
 			(effects
 				(font
@@ -5929,72 +6145,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 140.97 138.43 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dfd984eb-cf78-4c02-88c8-fb201140deb6")
-		(property "Reference" "#PWR058"
-			(at 140.97 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 140.97 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 140.97 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 140.97 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 140.97 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7e79c5bd-89ad-4029-9958-9ad792522161")
-		)
-		(instances
-			(project "WeSta"
-				(path "/ae1a61f8-b504-456a-9cf1-40e40b136184/11fdf58f-81a0-4916-a85f-635777d8f33a"
-					(reference "#PWR058")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 187.96 101.6 0)
 		(unit 1)
@@ -6013,7 +6163,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "20u"
+		(property "Value" "22uF"
 			(at 190.5 102.8762 0)
 			(effects
 				(font
