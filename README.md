@@ -1,2 +1,2 @@
-# WeSta
-Weather station with ESP32-C3
+# SoWeSta
+**So**lar powered **We**ather **Sta**tion
